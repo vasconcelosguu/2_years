@@ -1,0 +1,124 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fce4ec;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background-color: #ff80ab;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.intro {
+  margin-bottom: 20px;
+}
+
+.timeline {
+  margin-bottom: 20px;
+}
+
+.timeline h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #d81b60;
+}
+
+.timeline-item {
+  background-color: #ffe0e0;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 20px;
+  position: relative;
+  text-align: center; /* Centraliza o texto */
+}
+
+.timeline-item::before {
+  content: '❤️';
+  font-size: 2em;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.timeline-content {
+  text-align: center; /* Centraliza o texto */
+  padding-left: 0; /* Remove padding */
+}
+
+.timeline-content h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.timeline-content p {
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
+.gallery {
+  margin-bottom: 20px;
+}
+
+.gallery h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.quotes {
+  background-color: #ffe0e0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.quotes h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.quotes p {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #ff80ab;
+  color: #fff;
+  border-radius: 10px;
+}
